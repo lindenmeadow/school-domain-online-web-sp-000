@@ -22,9 +22,9 @@ class School
     @roster[grade]
   end
 
-  def sort(school, roster)
-    @school = school
-    @roster = roster
-    school.roster.sort
+  def sort
+    @roster.each do |k, v|
+      v.sort!
+    end
   end
 end
