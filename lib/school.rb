@@ -5,4 +5,6 @@ class School
   end
 
   ROSTER = {}
+
+  def add_student(name, grade)
 end
